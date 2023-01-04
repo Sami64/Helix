@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public Slider progressSlider;
 
     public static int ringsPassed;
+    public static bool isMute;
 
     private void Awake()
     {
